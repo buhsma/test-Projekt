@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+
+    & i {
+        font-size: 800%;
+        margin-top: 10%;
+        color: blue;
+    }
+}
+.btn {
+    border: solid black;
+    border-radius: 5px;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    color: white;
+    // transform: translateY(300px);
+
+    &__green {
+        background-color: green;
+        transform: translateX(150px) translateY(300px);
+    }
+
+    &__red {
+        background-color: red;
+        transform: translateX(-150px) translateY(300px);
+    }
+
+}
+
+.bi-emoji{
+    font-size: 800%;
+    margin-top: 10%;
+    
+    
+    &-smile{
+      color: blue;  
+      display: flex;
+    }
+    &-heart-eyes{
+        color: green;  
+        display: none;
+        transform: translateX(50px);
+      }
+    &-dizzy{
+    color: red;
+    display: none;
+    transform: translateX(50px);  
+    }
+        
+}
+.theOneWithTheText{
+    transform: translateX(-75px) translateY(380px);
+}
+
+    
